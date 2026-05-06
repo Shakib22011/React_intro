@@ -1,4 +1,4 @@
-export default function Actor(actor){
-    // console.log('found');
-    return <li>student : {actor.name}</li>
+export default function Actor(props){
+    // console.log('found'  );
+    return <li>student : {props.name}</li>
 }
